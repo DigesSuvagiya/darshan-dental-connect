@@ -1,6 +1,7 @@
 import { MessageCircle, Phone, Mail, MapPin, Clock, ShieldCheck, Truck, Stethoscope } from "lucide-react";
 import darshanLogo from "@/assets/darshan-logo.png";
-import bfConoid from "@/assets/brands/bf-conoid.png";
+// import bfConoid from "@/assets/brands/bf-conoid.png";
+import implants from "@/assets/brands/implants.png";
 import vision from "@/assets/brands/vision.png";
 import sswhite from "@/assets/brands/sswhite.png";
 import neoendo from "@/assets/brands/neoendo.png";
@@ -34,7 +35,7 @@ const WHATSAPP_URL = `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponen
 
 // Brand logos — add more as user uploads them
 const BRANDS: { name: string; logo: string }[] = [
-  { name: "BF Conoid", logo: bfConoid },
+  { name: "implants", logo: implants },
   { name: "Vision", logo: vision },
   { name: "SS White", logo: sswhite },
   { name: "NeoEndo", logo: neoendo },
